@@ -18,7 +18,7 @@ export default function Header() {
             </h1>
             <nav className="hidden md:flex md:basis-1/3">
                 <ul className="md:flex">
-                    <li className="mx-2"><a>Shop</a></li>
+                    <li className="mx-2"><a href='products'>Shop</a></li>
                     <li className="mx-2"><a>About</a></li>
                     <li className="mx-2"><a>Contact</a></li>
                 </ul>

@@ -1,19 +1,18 @@
 import Header from './Components/Header'
-import Carousel from './Components/Carousel';
-import ProductsCard from './Components/ProductsCard';
-import About from './Components/About'
-import ProductUses from './Components/ProductUses'
+import HomePage from './Pages/HomePage';
+import ProductsPage from './Pages/ProductsPage'
+import { Routes, Route } from 'react-router-dom'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full overflow-hidden">
       <Header/>
       <div className='body'>
-        <Carousel/>
-        <ProductsCard/>
-        <ProductUses/>
-        <About/>
+        <Routes>
+            <Route path='/' element={<HomePage/>}/>
+            <Route path='products' element={<ProductsPage/>}/>
+        </Routes>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App w-full overflow-hidden">
+    <div className="App w-full">
       <Header/>
       <div className='body'>
         <Routes>

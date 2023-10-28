@@ -3,7 +3,7 @@ import { faLeftRight, faCircleDot, faBox } from '@fortawesome/free-solid-svg-ico
 
 export default function Items({img, code, name, thickness, quantity}) {
     return (
-        <article className='flex flex-col p-5 basis-1/2 md:basis-1/4'>
+        <article className='flex flex-col p-5 basis-1/2 md:basis-1/4 xl:basis-1/6'>
             <div className='rounded-xl basis-1/2'>
                 <div>
                     <img src={img} className='w-full object-cover'/>

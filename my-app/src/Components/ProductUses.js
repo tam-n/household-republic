@@ -8,7 +8,7 @@ export default function ProductUses() {
     return (
         <>
             <div className="text-center pt-8 titles font-semibold text-2xl">Product Uses</div>
-            <div className="row flex-wrap md:flex justify-center p-8 text-sm md:text-lg">
+            <div className="row flex-wrap md:flex justify-center p-16 text-sm md:text-lg">
                 <div className='basis-1/5 relative text-center p-1 md:p-2 font-normal'>
                     <img src={dental} className="w-full h-28 md:h-40 object-cover"/>
                     Dental

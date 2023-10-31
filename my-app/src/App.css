@@ -17,3 +17,7 @@
         height: 500px;
     }
 }
+
+.form-inline {
+    width: calc(50% - 18px)
+}

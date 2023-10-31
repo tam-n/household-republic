@@ -18,8 +18,8 @@ export default function Header() {
             </h1>
             <nav className="hidden md:flex md:basis-1/4 justify-center">
                 <ul className="md:flex">
-                    <li className="mx-2 text-xl"><a href='products'>Shop</a></li>
-                    <li className="mx-2 text-xl"><a>Contact</a></li>
+                    <li className="mx-2 text-xl"><a href='products'>Products</a></li>
+                    <li className="mx-2 text-xl"><a href='contact'>Contact</a></li>
                 </ul>
             </nav>
         </header>

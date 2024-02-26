@@ -1,1 +1,1 @@
-web: cd /householdrepublic/my-app && npm start
+web: npm start

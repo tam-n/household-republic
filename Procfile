@@ -1,1 +1,1 @@
-web: cd household-republic/my-app && npm start
+web: mix run --no-halt

@@ -11,11 +11,11 @@ import tlf from '../Images/tlf46100.png'
 import ilhd from '../Images/ilhd46100.png'
 import Items from './Items'
 
-export default function ProductCollection({products}) {
+export default function ProductCollection() {
     return (
         <div>   
             <div className="w-full">
-                <div className="mx-auto p-14 lg:px-32">
+                <div className="mx-auto p-8 lg:px-32">
                     <div className='titles text-center mb-8 text-2xl font-semibold'>
                         <h1>Nitrile</h1>
                     </div>
